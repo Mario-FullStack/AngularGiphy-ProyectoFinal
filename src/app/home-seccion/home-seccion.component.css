@@ -1,0 +1,9 @@
+.bckclr {
+    background-color: darkslategray;
+    color: #fff;}
+
+.bckclr:hover {
+    transition: ease .5s;
+    background-color: rgb(67, 114, 114);
+   
+}

@@ -1,0 +1,39 @@
+.titulo {
+    width: 100%;
+    padding:30px;
+    background-color: darkslategray;
+    color: #fff;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    columns: 5;
+    padding: 25px;
+    background-color: rgb(111, 122, 115);
+    transition: all 0.3s linear;
+}
+
+.stik {
+    margin-bottom: 20px;
+    border: 2px solid darkslategray;
+    transition: all 0.3s linear;
+}
+
+.stik > img {
+    width: 100%;
+    background-color: rgb(111, 122, 115);
+}
+
+.contenedor:hover {
+    background-color: darkslategray;
+}
+
+.contenedor:hover .stik {
+    background-color: darkslategray;
+    border-color: #fff;
+}
+
+.stik:hover {
+    border-width: 8px;
+}

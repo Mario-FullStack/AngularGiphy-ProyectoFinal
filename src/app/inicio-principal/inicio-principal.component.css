@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(237, 233, 233);
+}
+
+.underline {
+    text-decoration:underline;
+    text-decoration-color: darkslategray;
+}
+
+.nav-custom {
+    color: rgb(63, 105, 105);
+}
+
+.nav-custom:hover {
+    color: darkslategray;
+}
+
+.nav-pills .nav-link.active {
+    background-color: darkslategray;
+    color: #fff;
+}
+.noactive {
+    background-color: none;
+    color: none;
+}

@@ -1,0 +1,11 @@
+<div class="titulo">
+    <h1>Stickers</h1>
+</div>
+
+<div class="contenedor">
+    <div class="stiks">
+        <div class="stik" *ngFor="let stik of stiksModa">
+            <img [src]="stik.images.downsized.url" alt="image">
+        </div>
+    </div>
+</div>
